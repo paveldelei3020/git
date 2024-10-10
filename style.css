@@ -23,9 +23,75 @@ body{
 .header{
     width: 1024px;
     height: 768px;
-
     background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
-    background-size: 1024px 768px;
+    background-size: 1229px 768px;
+    background-position-x: -102px;
+}
+
+
+
+.navigation {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20px;
+    left: 397px;
+    width: 230px;
+    height: 26px;
+    list-style-type: none;
+}
+
+.navigation button{
+    width: 70px;
+    height: 26px;
+    padding-right: 13px;
+    padding-left: 13px;
+    font-family: "IBM Plex Mono";
+    color: #FF0070;
+    line-height: 18px;
+    text-align: center;
+    size: 18px;
+    font-weight: 400;
+    background-color: rgba(28,28,28,0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+button:active {
+    border: 1px solid #FF0070;
+}
+
+button:hover {
+    border: 1px solid #FF0070;
+}
+
+.rectangle79{
+    position: relative;
+    top: 703px;
+    left: 20px;
+    margin: 0px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    border-color: #FF0070;
+    
+}
+
+.rectangle77 {
+    position: relative;
+    top: 0px;
+    left: 979px;
+    margin: 0px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 1px 1px 0px 0px ;
+    border-style: solid;
+    border-color: #FF0070;
 }
 
 h1{
@@ -38,6 +104,7 @@ h1{
     font-size: 157px;
     line-height: 129.53px;
     color: #DB00FF;
+    margin: 0px;
     text-shadow: 4px 4px 0px #FF0070;
 }
 
@@ -58,38 +125,8 @@ h1{
 }
 
 
-.navigation button{
-    width: 70px;
-    height: 26px;
-    padding-right: 13px;
-    padding-left: 13px;
-    font-family: "IBM Plex Mono";
-    color: #FF0070;
-    line-height: 18px;
-    text-align: center;
-    size: 18px;
-    font-weight: 400;
-    background-color: rgba(28,28,28,0);
-    border: none;
-    outline: none;
-    cursor: pointer;
 
-}
-button:active {
-    border: 1px solid #FF0070;
-}
 
-button:hover {
-    border: 1px solid #FF0070;
-}
 
-.navigation {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 20px;
-    left: 397px;
-    width: 230px;
-    height: 26px;
-    list-style-type: none;
-}
+
+
