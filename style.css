@@ -10,6 +10,7 @@
     font-weight: bold;
 }
 
+
 html{
     box-sizing: border-box;
 }
@@ -18,6 +19,12 @@ body{
     background-color: #000028;
     display: flex;
     justify-content: center;
+}
+
+.container{
+    max-height: max-content;
+    margin: 0;
+    position: relative;
 }
 
 .header{
@@ -143,7 +150,6 @@ h1{
     color: #DB00FF;
     margin: 0px;
     text-shadow: 4px 4px 0px #FF0070;
-    
 }
 
 .p1{
@@ -161,3 +167,57 @@ h1{
     background-color: #FF0070;
     color: #000028;
 }
+.main{
+    p
+    width: 1024px;
+    height: 3352px;
+    top: 828px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.main .title{
+    position: absolute;
+    left: 20px;
+    width: 314.96px;
+    height: 47px;
+
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #FF0070;
+}
+
+.main .mnogo{
+    position: absolute;
+    left: 354.89px;
+    width: 648.92px;
+    height: 23px;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 23.4px;
+    color: #000028;
+    background-color: #FF0070;
+
+}
+
+.main .mnogotext{
+    position: relative;
+    left: 354.89px;
+    top: 33px;
+    width: 648.92px;
+    height: 211px;
+    font-family: 'IBM Plex Mono';
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 23.4px;
+    color: #F1B2CE;
+}
+
+
+
+
+
