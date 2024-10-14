@@ -239,23 +239,31 @@ h1{
     color: #F1B2CE;
 }
 
-a{
-    font-family: 'IBM Plex Mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    text-shadow: 2px 2px  #FF0070;
-    color: #F1B2CE;
-    text-decoration: none;
-
-    
-    
-    color: #F1B2CE;
-}
-
-a:hover{
-    color: #F1B2CE;
-    background-color: blue;
+a { 
+    font-family: 'IBM Plex Mono'; 
+    font-weight: 400; 
+    font-size: 18px; 
+    color: #f1b2ce; 
+    text-shadow: 2px 2px #ff0070; 
+    text-decoration: none; 
+} 
+ 
+a:hover { 
+    font-family: 'IBM Plex Mono'; 
+    font-weight: 400; 
+    font-size: 18px; 
+    text-decoration: underline; 
+    text-decoration-skip-ink: none; 
+    color: #f1b2ce; 
+} 
+ 
+a:focus { 
+    font-family: 'IBM Plex Mono'; 
+    font-weight: 400; 
+    font-size: 18px; 
+    color: #f1b2ce; 
+    border: 1px solid #f1b2ce; 
+    text-decoration: none; 
 }
 
 
