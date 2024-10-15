@@ -2,14 +2,71 @@
     font-family: 'IBM Plex Mono';
     src: url('./fonts/IBMPlexMono-Regular.ttf');
     font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{
     font-family: 'IBM Plex Mono';
     src: url('./fonts/IBMPlexMono-Bold.ttf');
     font-weight: bold;
+    font-style: normal;
 }
 
+.uglybottom{
+    margin: 0px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #FF0070;
+}
+
+.uglytop{
+    width: 25px;
+    height: 25px;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    border-color: #FF0070;
+}
+
+.fonbold{
+    background-color: #FF0070;
+    color: #000028;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.fonnormal {
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000028;
+    background-color: #FF0070;
+}
+
+.fontext {
+    font-family: 'IBM Plex Mono';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #F1B2CE;
+}
+
+.fontitle{
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FF0070;
+}
 
 html{
     box-sizing: border-box;
@@ -58,7 +115,7 @@ body{
     color: #FF0070;
     line-height: 18px;
     text-align: center;
-    size: 18px;
+    font-size: 18px;
     font-weight: 400;
     background-color: rgba(28,28,28,0);
     border: none;
@@ -79,27 +136,12 @@ button:hover {
     position: absolute ;
     top: 723px;
     left: 20px;
-    margin: 0px;
-    width: 25px;
-    height: 25px;
-    max-width: 25px;
-    border-width: 0px 0px 1px 1px;
-    border-style: solid;
-    border-color: #FF0070;
-    
 }
 
 .header .rectangle77 {
     position:absolute;
     top: 20px;
     left: 979px;
-    margin: 0px;
-    width: 25px;
-    height: 25px;
-    max-width: 25px;
-    border-width: 1px 1px 0px 0px ;
-    border-style: solid;
-    border-color: #FF0070;
 }
 
 
@@ -124,10 +166,11 @@ button:hover {
     height: 26px;
     left: 943px;
     top: 20px;
-    margin: 0px;
+    margin: 0;
 
     font-family: 'IBM Plex Mono';
     font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     line-height: 25px;
 
@@ -137,34 +180,27 @@ button:hover {
 }
 
 
-h1{
+.header h1{
     position: absolute;
     top: 319px;
     width: 759px;
     height: 130px;
     font-family: 'IBM Plex Mono';
     font-weight: bold;
+    font-style: normal;
     font-size: 157px;
     line-height: 129.53px;
     color: #DB00FF;
-    margin: 0px;
+    margin: 0;
     text-shadow: 4px 4px 0px #FF0070;
 }
 
-.p1{
-    position: relative;
+.header .p1{
+    position: absolute;
     top: 563px;
     left: 513px;
-    right: 20px;
-    bottom: 134px;
     width: 491px;
     height: 71px;
-    font-family: 'IBM Plex Mono';
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 23.4px;
-    background-color: #FF0070;
-    color: #000028;
 }
 
 .main{
@@ -172,8 +208,8 @@ h1{
     width: 1024px;
     height: 3352px;
     top: 828px;
-    gap: 0px;
-    opacity: 0px;
+    gap: 0;
+    opacity: 0;
 
 }
 
@@ -181,12 +217,12 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     
     position: absolute;
     width: 1024px;
     height: 508px;
-    left: 0px;
+    left: 0;
     top: 828px;
 }
 
@@ -196,13 +232,7 @@ h1{
     width: 314.96px;
     height: 47px;
     left: 20px;
-    top: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    color: #FF0070;
+    top: 0;
 }
 
 .section1 .mnogo{
@@ -210,16 +240,7 @@ h1{
     width: 648.92px;
     height: 23px;
     right: 20.19px;
-    top: 0px;
-    
-    font-family: 'IBM Plex Mono';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    background-color: #FF0070;
-    
-    color: #000028;
-
+    top: 0;
 }
 
 .section1 .mnogotext{
@@ -228,15 +249,6 @@ h1{
     height: 211px;
     right: 20.19px;
     top: 33px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    
-
-
-    color: #F1B2CE;
 }
 
 a { 
@@ -273,15 +285,6 @@ a:focus {
     height: 23px;
     left: 355.08px;
     top: 264px;
-    
-    font-family: 'IBM Plex Mono';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    background-color: #FF0070;
-    
-    color: #000028;
-
 }
 
 
@@ -292,27 +295,18 @@ a:focus {
     height: 211px;
     left: 355.08px;
     top: 297px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    
-
-
-    color: #F1B2CE;
 }
 
 .section2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0 20px;
 
     position: absolute;
     width: 1024px;
     height: 498px;
-    left: 0px;
+    left: 0;
     top: 1416px;
 }
 
@@ -322,13 +316,6 @@ a:focus {
     height: 47px;
     left: 20px;
     top: 0;
-
-    font-family: IBM Plex Mono;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23.4px;
-    color: #FF0070;
-
 }
 
 
@@ -336,7 +323,7 @@ a:focus {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 20px;
 
     position: absolute;
@@ -348,21 +335,11 @@ a:focus {
 
 
 .contentsect2 .mnogosect2{
-
-
     position: absolute;
     width: 315px;
     height: 23px;
-    left: 0px;
-    top: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    color: #000028;
-    background-color: #FF0070;
-
+    left: 0;
+    top: 0;
 }
 
 .contentsect2 .mnogotextsect2{
@@ -370,14 +347,8 @@ a:focus {
     position: absolute;
     width: 315px;
     height: 351px;
-    left: 0px;
+    left: 0;
     top: 33px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: #F1B2CE;
 }
 
 .contentsect2 .food{
@@ -385,14 +356,7 @@ a:focus {
     width: 315px;
     height: 23px;
     left: 335px;
-    top: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #000028;
-    background-color: #FF0070;
+    top: 0;
 }
 
 .contentsect2 .foodtext{
@@ -401,12 +365,6 @@ a:focus {
     height: 328px;
     top: 33px;
     left: 335px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #F1B2CE;
 }
 
 .contentsect2 .gadj{
@@ -414,14 +372,7 @@ a:focus {
     width: 315px;
     height: 23px;
     left: 670px;
-    top: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #000028;
-    background-color: #FF0070;
+    top: 0;
 }
 
 .contentsect2 .gadjtext{
@@ -430,24 +381,18 @@ a:focus {
     height: 398px;
     top: 33px;
     left: 670px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #F1B2CE;
 }
 
 .section3 { 
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0px 20px;
+padding: 0 20px;
 
 position: absolute;
 width: 1024px;
 height: 1015px;
-left: 0px;
+left: 0;
 top: 1994px;
 
 
@@ -458,12 +403,7 @@ position: absolute;
 width: 315px;
 height: 98px;
 left: 20px;
-top: 0px;
-font-family: 'IBM Plex Mono';
-font-weight: 700;
-font-size: 18px;
-line-height: 23px;
-color: #FF0070;
+top: 0;
 }
 
 
@@ -471,7 +411,7 @@ color: #FF0070;
 display: flex;
 flex-direction: column;
 align-items: flex-end;
-padding: 0px;
+padding: 0;
 gap: 20px;
 
 position: absolute;
@@ -479,23 +419,16 @@ width: 649px;
 height: 1015px;
 right: 20px;
 left: 355px;
-top: 0px;
+top: 0;
 }
 
 .contentsect3 .pro {
     width: 649px;
     height: 23px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    color: #000028;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    background-color: #FF0070;
 }
 
 
@@ -504,61 +437,33 @@ top: 0px;
     position: absolute;
     width: 649px;
     height: 23px;
-    left: 0px;
+    left: 0;
     top: 43px;
     
-    font-family: 'IBM Plex Mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: #000028;
-    background-color: #FF0070;
+
 }
 
 .contentsect3 .pretext {
- 
     position: absolute;
     width: 647.55px;
     height: 211px;
-    left: 0px;
+    left: 0;
     top: 76px;
-
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: #F1B2CE;
-
 }
 
 .contentsect3 .music{
     position: absolute;
     width: 649px;
     height: 23px;
-    left: 0px;
+    left: 0;
     top: 307px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    background-color: #FF0070;
-    color: #000028;
 }
 .contentsect3 .musictext{
     position: absolute;
     width: 649px;
     height: 117px;
-    left: 0px;
+    left: 0;
     top: 340px;
-
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: #F1B2CE;
 }
 
 .contentsect3 .progul{
@@ -566,14 +471,7 @@ top: 0px;
     width: 649px;
     height: 23px;
     top: 477px;
-    left: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #000028;
-    background-color: #FF0070;
+    left: 0;
 }
 
 .contentsect3 .progultext {
@@ -581,13 +479,7 @@ top: 0px;
     width: 649px;
     height: 164px;
     top: 510px;
-    left: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #F1B2CE;
+    left: 0;
 }
 
 .contentsect3 .horosh{
@@ -595,14 +487,7 @@ top: 0px;
     width: 649px;
     height: 23px;
     top: 694px;
-    left: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #000028;
-    background-color: #FF0070;
+    left: 0;
 }
 
 .contentsect3 .horoshtext{
@@ -610,13 +495,7 @@ top: 0px;
     width: 649px;
     height: 118px;
     top: 727px;
-    left: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 23.4px ;
-    color: #F1B2CE;
+    left: 0;
 }
 
 .contentsect3 .chit{
@@ -624,14 +503,7 @@ top: 0px;
     width: 649px;
     height: 23px;
     top: 865px;
-    left: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #000028;
-    background-color: #FF0070;
+    left: 0;
 }
 
 .contentsect3 .chittext {
@@ -639,13 +511,7 @@ top: 0px;
     width: 649px;
     height: 117px;
     top: 898px;
-    left: 0px;
-
-    font-family: 'IBM Plex Mono';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #F1B2CE;
+    left: 0;
 }
 
 .section4 {
@@ -653,13 +519,13 @@ top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px 0px 20px;
+    padding: 0 20px 0 20px;
     isolation: isolate;
 
     position: absolute;
     width: 1024px;
     height: 1091px;
-    left: 0px;
+    left: 0;
     top: 3089px;
 
 
@@ -670,14 +536,7 @@ top: 0px;
     width: 984px;
     height: 23px;
     left: 20px;
-    top: 0px;
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    color: #000028;
-    background-color: #FF0070;
+    top: 0;
 }
 
 .section4 .group{
@@ -733,7 +592,7 @@ z-index: 1;
     position: absolute;
     width: 1024px;
     height: 768px;  
-    left: 0px;
+    left: 0;
     top: 4240px;
 }
 
@@ -743,38 +602,27 @@ width: 471px;
 height: 130px;
 left: 277px;
 top: 319px;
-margin: 0px;
+margin: 0;
 
 font-family: 'IBM Plex Mono';
 font-weight: 700;
 font-size: 157px;
 line-height: 129.53px;
 color: #DB00FF;
-text-shadow: 2px 2px 0px #FF0070;
+text-shadow: 2px 2px 0 #FF0070;
 }
 
 .end .rectangle87 {
 box-sizing: border-box;
 position: absolute;
-width: 25px;
-height: 25px;
 left: 20px;
 top: 723px;
-border-width: 0px 0px 1px 1px;
-border-style: solid;
-border-color: #FF0070;
 }
 
 
 .end .rectangle89 {
 box-sizing: border-box;
 position: absolute;
-width: 25px;
-height: 25px;
 left: 979px;
 top: 20px;
-
-border-width: 1px 1px 0px 0px;
-border-style: solid;
-border-color: #FF0070;
 }
