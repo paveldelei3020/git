@@ -94,19 +94,17 @@ body{
 }
 
 .navigation {
-    position: absolute;
-    top: 20px;
-    left: 397px;
-    width: 230px;
-    height: 26px;
-    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .navigation button{
     width: 70px;
     height: 26px;
-    padding-right: 13px;
-    padding-left: 13px;
+    padding: 0 13px;
     font-family: "IBM Plex Mono";
     color: #FF0070;
     line-height: 18px;
